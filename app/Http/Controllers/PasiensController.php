@@ -42,10 +42,10 @@ class PasiensController extends Controller
         return redirect('/pasiens');
     }
 
-    public function destroy(Kota $kota)
+    public function destroy(Pasien $pasien)
     {
-        $kota->delete();
+        $pasien->delete();
 
-        return redirect('/kotas');
+        return redirect('/pasiens');
     }
 }
