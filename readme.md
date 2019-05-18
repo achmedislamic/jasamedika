@@ -11,3 +11,6 @@ Library yang digunakan:
 Framework
 1. Laravel (Back end)
 2. Bootstrap (Front End)
+
+Tes ini telah menggunakan Migration. Untuk itu, silahkan jalankan perintah dibawah ini untuk langsung membuat table ke database.
+php artisan migrate
